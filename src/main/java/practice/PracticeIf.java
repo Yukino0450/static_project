@@ -1,4 +1,4 @@
-
+package practice;
 public class PracticeIf {
 
 	public static void main(String[] args) {/*main method お決まりの形*/

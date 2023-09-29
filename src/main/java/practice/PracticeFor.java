@@ -1,4 +1,4 @@
-
+package practice;
 public class PracticeFor {
 
 	public static void main(String[] args) {
