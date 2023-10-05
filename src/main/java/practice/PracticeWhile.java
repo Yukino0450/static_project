@@ -6,7 +6,7 @@ public class PracticeWhile {
 
 		while (num >= 0) {
 			System.out.println(num);
-			num --;
+			num--;
 		}
 	}
 }

@@ -1,12 +1,10 @@
 package practice;
 
-import java.util.Arrays;
-
 public class PracticeForEach {
 
 	public static void main(String[] args) {
 		
-		String[] list = {
+		String list[] = {
 				"Yuki",
 				"Ed",
 				"Micheal",
@@ -20,8 +18,11 @@ public class PracticeForEach {
 				"Hanna",
 				"Ash"
 				};
+		
+		for(String str: list) {
+			System.out.println(str);
+		}
 
-	Arrays.stream(list).forEach(s -> System.out.println(s));
 	}
 
 }
